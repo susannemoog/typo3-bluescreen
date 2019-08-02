@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:f="https://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="robots" content="noindex, follow">
+	<title>{title}</title>
+	<link rel="stylesheet" href="{cssFile}">
+</head>
+<body class="t3-message-page t3-{severityCssClass}page-message">
+
+<main>
+	<header>
+		<h1 class="emotion">:(</h1>
+		<h2>{title}</h2>
+	</header>
+	<p class="description">{message}
+		<f:if condition="{errorCode} > 0">
+		</f:if>
+	</p>
+	<footer>
+		<p><small>More information regarding this error might be available <a href="{errorCodeUrlPrefix}{errorCode}" target="_blank">online</a>.<span> (error: ERROR #{errorCode})</span></small></p>
+	</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/*!
+ * This file is part of the TYPO3 CMS project.
+ *
+ * It is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License, either version 2
+ * of the License, or any later version.
+ *
+ * For the full copyright and license information, please read the
+ * LICENSE.txt file that was distributed with this source code.
+ *
+ * The TYPO3 project - inspiring people to share!
+ */
+@font-face {
+	font-family: FontAwesome;
+	src: url(../../../../../../typo3/sysext/backend/Resources/Public/Fonts/FontAwesome/fontawesome-webfont.eot?v=4.6.3);
+	src: url(../../../../../../typo3/sysext/backend/Resources/Public/Fonts/FontAwesome/fontawesome-webfont.eot?#iefix&v=4.6.3) format("embedded-opentype"), url(../../../../../../typo3/sysext/backend/Resources/Public/Fonts/FontAwesome/fontawesome-webfont.woff2?v=4.6.3) format("woff2"), url(../../../../../../typo3/sysext/backend/Resources/Public/Fonts/FontAwesome/fontawesome-webfont.woff?v=4.6.3) format("woff"), url(../../../../../../typo3/sysext/backend/Resources/Public/Fonts/FontAwesome/fontawesome-webfont.ttf?v=4.6.3) format("truetype"), url(../../../../../../typo3/sysext/backend/Resources/Public/Fonts/FontAwesome/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular) format("svg");
+	font-weight: 400;
+	font-style: normal
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Segoe UI Light";
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+body {
+	font-family: "Segoe UI";
+	color: #FFF;
+	background: #008CFF;
+	margin: 0;
+}
+
+main {
+	margin: 4% 35%;
+}
+
+.emotion {
+	font-size: 8em;
+	margin: 0;
+}
+
+.description {
+	font-size: 1.4em;
+	margin-bottom: 3em;
+}
+
+footer small {
+	font-size: 0.8em;
+}
+
+a {
+	color: #fff;
+}
