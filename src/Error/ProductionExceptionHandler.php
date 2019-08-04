@@ -57,9 +57,7 @@ class ProductionExceptionHandler extends \TYPO3\CMS\Core\Error\ProductionExcepti
         $this->view->assign('title', $this->getTitle($exception));
         $this->view->assign('errorCodeUrlPrefix', TYPO3_URL_EXCEPTION);
         $this->view->assign('errorCode', $this->discloseExceptionInformation($exception) ? $exception->getCode() : 0);
-        //$this->view->assign('logo', PathUtility::getAbsoluteWebPath(Environment::getFrameworkBasePath() . '/backend/Resources/Public/Images/typo3_orange.svg'));
         $this->view->assign('cssFile', PathUtility::getAbsoluteWebPath(Environment::getExtensionsPath() . '/bluescreen/res/public/css/errorpage.css'));
-        $this->view->assign('copyrightYear', TYPO3_copyright_year);
         echo $this->view->render('Error');
     }
 

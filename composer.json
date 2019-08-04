@@ -8,11 +8,15 @@
     }
   ],
   "type": "typo3-cms-extension",
-  "description": "TYPO3 CMS Extension to integrate nextcloud in FAL",
+  "description": "TYPO3 CMS Extension to change the production exceptions to look like windows bluescreens.",
   "license": "GPL-2.0-or-later",
   "autoload": {
     "psr-4": {
       "Susanne\\Bluescreen\\": "src/"
     }
+  },
+  "require": {
+    "typo3/cms-core": ">=10.0 <11.0.0",
+    "typo3fluid/fluid": "^2.6.1"
   }
 }
